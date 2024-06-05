@@ -52,7 +52,7 @@ else{
         AdditionalInfo:additionalInfo,
 
     }
-axios.post("http://localhost:5000/api/intern",bodyJosn).then((res)=>{
+axios.post("https://internareabackend.onrender.com/api/intern",bodyJosn).then((res)=>{
     console.log(res.data)
   }).catch((err)=>
   console.log(err))

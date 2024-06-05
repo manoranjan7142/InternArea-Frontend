@@ -53,7 +53,7 @@ else{
         AdditionalInfo:additionalInfo,
 
     }
-axios.post("http://localhost:5000/api/job",bodyJosn).then((res)=>{
+axios.post("https://internareabackend.onrender.com/api/job",bodyJosn).then((res)=>{
     console.log(res.data)
     navigate("/adminPanel")
 alert(" Job Posted is Successfully")
